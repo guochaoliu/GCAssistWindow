@@ -27,3 +27,4 @@ guochaoliu, guo_chao_liu@sina.com
 ## License
 
 GCAssistWindow is available under the MIT license. See the LICENSE file for more info.
+# GCAssistWindow
