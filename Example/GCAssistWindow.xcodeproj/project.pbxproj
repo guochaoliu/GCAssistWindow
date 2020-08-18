@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2489375041A5647B87C14957 /* Pods_GCAssistWindow_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4230C05BB578D6264E24CE5 /* Pods_GCAssistWindow_Tests.framework */; };
+		0E556BFA3CD2DA9E8FE05193 /* Pods_GCAssistWindow_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D88CFF40B6866B2DB9FDA36 /* Pods_GCAssistWindow_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,8 +22,9 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		841D698D7C2C83CBC4D1A3A7 /* Pods_GCAssistWindow_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B308BFFD5920EEF694FD5ABC /* Pods_GCAssistWindow_Example.framework */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B29BA9902465160C9930FAD9 /* Pods_GCAssistWindow_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83357CC03ECC1B12FD6F222E /* Pods_GCAssistWindow_Example.framework */; };
+		E47DEF5B24EBB263006FF8A0 /* GCWindowRootControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E47DEF5A24EBB263006FF8A0 /* GCWindowRootControllerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06A5E8E1CDC996C8E1AA0131 /* Pods-GCAssistWindow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCAssistWindow_Example.release.xcconfig"; path = "Target Support Files/Pods-GCAssistWindow_Example/Pods-GCAssistWindow_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4C3F480B006867C5963E168D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		396B21956F070127CF0021A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* GCAssistWindow_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCAssistWindow_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -58,15 +58,18 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
+		63F69EA687A39B437D06FD39 /* Pods-GCAssistWindow_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCAssistWindow_Example.release.xcconfig"; path = "Target Support Files/Pods-GCAssistWindow_Example/Pods-GCAssistWindow_Example.release.xcconfig"; sourceTree = "<group>"; };
+		6D88CFF40B6866B2DB9FDA36 /* Pods_GCAssistWindow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCAssistWindow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		83357CC03ECC1B12FD6F222E /* Pods_GCAssistWindow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCAssistWindow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B308BFFD5920EEF694FD5ABC /* Pods_GCAssistWindow_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCAssistWindow_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B4230C05BB578D6264E24CE5 /* Pods_GCAssistWindow_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GCAssistWindow_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B87526C17F426B1313330912 /* Pods-GCAssistWindow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCAssistWindow_Tests.release.xcconfig"; path = "Target Support Files/Pods-GCAssistWindow_Tests/Pods-GCAssistWindow_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CF69F892EE724FF65D960464 /* Pods-GCAssistWindow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCAssistWindow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GCAssistWindow_Tests/Pods-GCAssistWindow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D26DD8CA9E873367C59C60CB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EAB96E01B6449A03D7301FFF /* GCAssistWindow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = GCAssistWindow.podspec; path = ../GCAssistWindow.podspec; sourceTree = "<group>"; };
-		FC06136A3DB5162EED776FF9 /* Pods-GCAssistWindow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCAssistWindow_Example.debug.xcconfig"; path = "Target Support Files/Pods-GCAssistWindow_Example/Pods-GCAssistWindow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B782FCD1DBE44CA867D75967 /* Pods-GCAssistWindow_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCAssistWindow_Example.debug.xcconfig"; path = "Target Support Files/Pods-GCAssistWindow_Example/Pods-GCAssistWindow_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA80CB24B872C2A9AE85D24B /* Pods-GCAssistWindow_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCAssistWindow_Tests.release.xcconfig"; path = "Target Support Files/Pods-GCAssistWindow_Tests/Pods-GCAssistWindow_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D78C3D0FB21CC693FDFD22D6 /* Pods-GCAssistWindow_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCAssistWindow_Tests.debug.xcconfig"; path = "Target Support Files/Pods-GCAssistWindow_Tests/Pods-GCAssistWindow_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E47DEF5924EBB263006FF8A0 /* GCWindowRootControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCWindowRootControllerViewController.h; sourceTree = "<group>"; };
+		E47DEF5A24EBB263006FF8A0 /* GCWindowRootControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCWindowRootControllerViewController.m; sourceTree = "<group>"; };
+		E88C9E12D02D7A9F29362441 /* GCAssistWindow.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GCAssistWindow.podspec; path = ../GCAssistWindow.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F5D87E63C57DEF61813EB6DF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				841D698D7C2C83CBC4D1A3A7 /* Pods_GCAssistWindow_Example.framework in Frameworks */,
+				B29BA9902465160C9930FAD9 /* Pods_GCAssistWindow_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,25 +91,13 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				2489375041A5647B87C14957 /* Pods_GCAssistWindow_Tests.framework in Frameworks */,
+				0E556BFA3CD2DA9E8FE05193 /* Pods_GCAssistWindow_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		15A0F1A09BD2F1C6FE5F7729 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				FC06136A3DB5162EED776FF9 /* Pods-GCAssistWindow_Example.debug.xcconfig */,
-				06A5E8E1CDC996C8E1AA0131 /* Pods-GCAssistWindow_Example.release.xcconfig */,
-				CF69F892EE724FF65D960464 /* Pods-GCAssistWindow_Tests.debug.xcconfig */,
-				B87526C17F426B1313330912 /* Pods-GCAssistWindow_Tests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -115,7 +106,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				15A0F1A09BD2F1C6FE5F7729 /* Pods */,
+				AD5D0274DDCD490515840745 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				B308BFFD5920EEF694FD5ABC /* Pods_GCAssistWindow_Example.framework */,
-				B4230C05BB578D6264E24CE5 /* Pods_GCAssistWindow_Tests.framework */,
+				83357CC03ECC1B12FD6F222E /* Pods_GCAssistWindow_Example.framework */,
+				6D88CFF40B6866B2DB9FDA36 /* Pods_GCAssistWindow_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,6 +140,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* GCViewController.h */,
 				6003F5A6195388D20070C39A /* GCViewController.m */,
+				E47DEF5924EBB263006FF8A0 /* GCWindowRootControllerViewController.h */,
+				E47DEF5A24EBB263006FF8A0 /* GCWindowRootControllerViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -190,11 +183,22 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				EAB96E01B6449A03D7301FFF /* GCAssistWindow.podspec */,
-				D26DD8CA9E873367C59C60CB /* README.md */,
-				4C3F480B006867C5963E168D /* LICENSE */,
+				E88C9E12D02D7A9F29362441 /* GCAssistWindow.podspec */,
+				396B21956F070127CF0021A3 /* README.md */,
+				F5D87E63C57DEF61813EB6DF /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		AD5D0274DDCD490515840745 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B782FCD1DBE44CA867D75967 /* Pods-GCAssistWindow_Example.debug.xcconfig */,
+				63F69EA687A39B437D06FD39 /* Pods-GCAssistWindow_Example.release.xcconfig */,
+				D78C3D0FB21CC693FDFD22D6 /* Pods-GCAssistWindow_Tests.debug.xcconfig */,
+				BA80CB24B872C2A9AE85D24B /* Pods-GCAssistWindow_Tests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,11 +208,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "GCAssistWindow_Example" */;
 			buildPhases = (
-				DAB9A942BA9446B19D08C504 /* [CP] Check Pods Manifest.lock */,
+				3042C77FDC648742B5A1BD45 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				61A577D27333BE8E6A0A3C0E /* [CP] Embed Pods Frameworks */,
+				659A54107158C26A0ADA91B4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,11 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "GCAssistWindow_Tests" */;
 			buildPhases = (
-				D1920B5F220427DDECA970BC /* [CP] Check Pods Manifest.lock */,
+				73FEC06811BD50DDB3043034 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				3B886DCA10B8FFD56CAE2C33 /* [CP] Embed Pods Frameworks */,
+				54D36AA61AC26078F4379B74 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -249,6 +253,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = guochaoliu;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 3R3XB8HQ48;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +266,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -296,65 +304,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		3B886DCA10B8FFD56CAE2C33 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GCAssistWindow_Tests/Pods-GCAssistWindow_Tests-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GCAssistWindow_Tests/Pods-GCAssistWindow_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		61A577D27333BE8E6A0A3C0E /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-GCAssistWindow_Example/Pods-GCAssistWindow_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/GCAssistWindow/GCAssistWindow.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCAssistWindow.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GCAssistWindow_Example/Pods-GCAssistWindow_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D1920B5F220427DDECA970BC /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-GCAssistWindow_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		DAB9A942BA9446B19D08C504 /* [CP] Check Pods Manifest.lock */ = {
+		3042C77FDC648742B5A1BD45 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -376,6 +326,64 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		54D36AA61AC26078F4379B74 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GCAssistWindow_Tests/Pods-GCAssistWindow_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GCAssistWindow_Tests/Pods-GCAssistWindow_Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		659A54107158C26A0ADA91B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GCAssistWindow_Example/Pods-GCAssistWindow_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GCAssistWindow/GCAssistWindow.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GCAssistWindow.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GCAssistWindow_Example/Pods-GCAssistWindow_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73FEC06811BD50DDB3043034 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GCAssistWindow_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -385,6 +393,7 @@
 			files = (
 				6003F59E195388D20070C39A /* GCAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* GCViewController.m in Sources */,
+				E47DEF5B24EBB263006FF8A0 /* GCWindowRootControllerViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,9 +519,10 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC06136A3DB5162EED776FF9 /* Pods-GCAssistWindow_Example.debug.xcconfig */;
+			baseConfigurationReference = B782FCD1DBE44CA867D75967 /* Pods-GCAssistWindow_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3R3XB8HQ48;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCAssistWindow/GCAssistWindow-Prefix.pch";
 				INFOPLIST_FILE = "GCAssistWindow/GCAssistWindow-Info.plist";
@@ -526,9 +536,10 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 06A5E8E1CDC996C8E1AA0131 /* Pods-GCAssistWindow_Example.release.xcconfig */;
+			baseConfigurationReference = 63F69EA687A39B437D06FD39 /* Pods-GCAssistWindow_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3R3XB8HQ48;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GCAssistWindow/GCAssistWindow-Prefix.pch";
 				INFOPLIST_FILE = "GCAssistWindow/GCAssistWindow-Info.plist";
@@ -542,7 +553,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CF69F892EE724FF65D960464 /* Pods-GCAssistWindow_Tests.debug.xcconfig */;
+			baseConfigurationReference = D78C3D0FB21CC693FDFD22D6 /* Pods-GCAssistWindow_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -567,7 +578,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B87526C17F426B1313330912 /* Pods-GCAssistWindow_Tests.release.xcconfig */;
+			baseConfigurationReference = BA80CB24B872C2A9AE85D24B /* Pods-GCAssistWindow_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

@@ -1,0 +1,6 @@
+framework module Pods_GCAssistWindow_Example {
+  umbrella header "Pods-GCAssistWindow_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

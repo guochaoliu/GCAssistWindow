@@ -1,0 +1,6 @@
+framework module GCAssistWindow {
+  umbrella header "GCAssistWindow-umbrella.h"
+
+  export *
+  module * { export * }
+}

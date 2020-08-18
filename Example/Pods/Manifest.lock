@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - GCAssistWindow (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - GCAssistWindow (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  GCAssistWindow:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  GCAssistWindow: a886bf5154043f271bc4efcef255fe2ac7e7474f
+
+PODFILE CHECKSUM: 30bd6cf66eb1eaa9398e25fd123bbcb98a192158
+
+COCOAPODS: 1.9.1
