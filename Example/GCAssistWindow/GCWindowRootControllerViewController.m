@@ -10,9 +10,9 @@
 #import <GCAssistWindow/GCAssistWindowManager.h>
 
 @interface GCWindowRootControllerViewController ()
-/// <#注释#>
+/// 注销当前
 @property (nonatomic, strong) UIButton *cancelButton;
-/// <#注释#>
+/// 注销全部
 @property (nonatomic, strong) UIButton *cancelMoreButton;
 @end
 

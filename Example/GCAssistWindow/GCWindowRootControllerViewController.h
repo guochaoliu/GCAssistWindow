@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface GCWindowRootControllerViewController : UIViewController
-/// <#注释#>
+/// window标识
 @property (nonatomic, copy) NSString *identifier;
 @end
 
