@@ -24,7 +24,7 @@ static NSString *cellID = @"cellID";
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.titleArray = @[@"window展示",@"多window展示",@"present动画"];
+    self.titleArray = @[@"window",@"多window",@"present"];
     self.tableView = [[UITableView alloc] initWithFrame:CGRectZero];
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
