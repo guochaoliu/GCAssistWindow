@@ -40,7 +40,7 @@ static GCAssistWindowManager *_manager;
     return [self.assistWindows valueForKey:identifier];
 }
 //移除window
-- (void)deallocAssistWindowWithIdentifier:(NSString *)identifier{
+- (void)deallocWindowWithIdentifier:(NSString *)identifier{
     [self removeWindowWithIdentifier:identifier];
 }
 //移除window
@@ -57,7 +57,7 @@ static GCAssistWindowManager *_manager;
     return [self.assistWindows.allValues containsObject:window];
 }
 //容错 移除所有生成window
-- (void)removeAllAssistWindows{
+- (void)removeAllWindows{
     for (NSString *identifier in self.assistWindows.allKeys) {
         [self removeWindowWithIdentifier:identifier];
     }

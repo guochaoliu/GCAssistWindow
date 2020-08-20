@@ -26,10 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (UIWindow *)getWindowWithIdentifier:(NSString *)identifier;
 /// 移除window
 /// @param identifier 标识
-- (void)deallocAssistWindowWithIdentifier:(NSString *)identifier;
-/// 是否是协助window
-/// @param window window
-- (BOOL)isAssistWindow:(UIWindow *)window;
+- (void)deallocWindowWithIdentifier:(NSString *)identifier;
 /// 移除所有协助window
 /*
 Tips:keyWindow.rootViewController设置值时需要确认不是协助window
@@ -38,7 +35,7 @@ Tips:keyWindow.rootViewController设置值时需要确认不是协助window
 
 不执行可能会造成设置rootViewController设置不到默认window
 */
-- (void)removeAllAssistWindows;
+- (void)removeAllWindows;
 @end
 
 NS_ASSUME_NONNULL_END
