@@ -41,14 +41,14 @@
 - (void)cancelButtonAction{
     if (self.presentingViewController) {
         [self dismissViewControllerAnimated:YES completion:^{
-            [[GCAssistWindowManager manager] deallocAssistWindowWithIdentifier:self.identifier];
+            [[GCAssistWindowManager manager] deallocWindowWithIdentifier:self.identifier];
         }];
         return;
     }
-    [[GCAssistWindowManager manager] deallocAssistWindowWithIdentifier:self.identifier];
+    [[GCAssistWindowManager manager] deallocWindowWithIdentifier:self.identifier];
 }
 - (void)cancelMoreButtonAction{
-    [[GCAssistWindowManager manager] removeAllAssistWindows];
+    [[GCAssistWindowManager manager] removeAllWindows];
 }
 - (void)setIdentifier:(NSString *)identifier{
     _identifier = identifier;
